@@ -1,0 +1,309 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{INRODUCTION TO RING THEORY}
+\author{GROUP 8 PROJECT}
+\date{2024/2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{UNIVERSITY OF LAGOS.}
+\section*{FACULTY OF SCIENCE.}
+\section*{DEPARTMENT OF MATHEMATICS.}
+
+\noindent MAT 333
+
+\noindent (ABSTRACT ALGEBRA)
+
+\noindent GROUP 8 PROJECT.
+
+\noindent 2024/2025.
+
+\noindent INRODUCTION TO RING THEORY.
+
+\section*{Solution To Selected Questions.}
+
+\section*{PREFACE.}
+
+This group (Group 8) is headed by Ogundele Olawale Morakinyo. [cite: 3, 4] A member of the department of Statistics with matric number 210806152, The group leader is assisted by Adesanya Racheal Teniola, a member of the department of mathematics with matric number 210806168. Other group members are listed below. [cite: 4]
+
+\begin{itemize}
+    \item Zannu Williams Jawu 210806166 Mathematics Science. [cite: 5]
+    \item Precious Adeleye Ayowale 210806167 Mathematics Science. [cite: 5]
+    \item Lawal Abdulsamad Korede 210806160 Mathematics Science. [cite: 5]
+    \item Kassim Omobolanle Deborah 210806170 Mathematics Science. [cite: 6]
+    \item Abiodun Ademola Adeoye 210806158 Mathematics science. [cite: 6]
+    \item Ayelabola Favour Oluwatobiloba 210806171 Mathematics Science. [cite: 6]
+    \item Oluwadairo Ayanfe Deborah 210806164 Mathematics Science. [cite: 7]
+    \item Ogun Sanusi Wedina 210806168 Mathematics Science. [cite: 7]
+    \item Bamise Daniel 210806172 Mathematics Science. [cite: 7]
+\end{itemize}
+
+\section*{ACKNOWLEDGEMENTS.}
+
+We would like to express my sincere gratitude to everyone who contributed to the successful completion of this project. [cite: 8] First and foremost, We extend our heartfelt appreciation to Dr George O.O for his invaluable guidance, support, and insightful feedback throughout the project. [cite: 9, 10] His expertise and encouragement has been instrumental in shaping the direction of this work. [cite: 10, 11]
+
+We are also deeply grateful to The Department Of Mathematics, Faculty of Science, The University Of Lagos for providing the necessary resources and a conducive environment for research and learning. [cite: 11, 12] A special thanks to all group members and colleagues for their constructive discussions, motivation, and assistance in various aspects of the project. [cite: 12, 13] Their support has been truly invaluable. [cite: 13, 14]
+
+Lastly, Our biggest appreciation is to God Almighty for the successful completion of this project. [cite: 13, 14] Thank you all for your contributions to this journey. [cite: 14]
+
+\noindent Group 8 Members.
+
+\noindent March 2025.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ll}
+        "PREFACE." & "111" \\
+        "ACKNOWLEDGMENTS." & " " \\
+        "CONTENTS." & "111" \\
+        "QUESTION 1.." & "2" \\
+        "SOLUTION." & "2" \\
+        "QUESTION 2." & "2" \\
+        "SOLUTION." & "2" \\
+        "QUESTION 3." & "4" \\
+        "SOLUTION." & "4" \\
+        "QUESTION 4." & "5" \\
+        "SOLUTION." & "5" \\
+        "QUESTION 5." & "6" \\
+        "SOLUTION." & "6"
+    \end{tabular}
+\end{table}
+
+\section*{CONTENTS.}
+
+111
+
+\section*{QUESTION 1.}
+
+Let <span class="math-inline">\\varphi\:R\\rightarrow S</span> be a Ring Homomorphism. Show that if x is nilpotent in R, then <span class="math-inline">\\varphi\(x\)</span> is nilpotent in S. [cite: 17]
+
+\section*{SOLUTION.}
+
+x is nilpotent in <span class="math-inline">R\\Rightarrow x\\in R</span> and <span class="math-inline">x^\{n\}\=0\_\{R\},n\\in\\mathbb\{N\}\.</span> [cite: 18]
+
+<span class="math-inline">\\varphi\(x\)</span> is nilpotent in <span class="math-inline">S\\Rightarrow\\varphi\(x\)\\in S</span> and <span class="math-inline">\(\\varphi\(x\)\)^\{n\}\=0\_\{S\},n\\in\\mathbb\{N\}\.</span> [cite: 18]
+
+Consider <span class="math-inline">\\varphi\(x^\{n\}\)</span> Since <span class="math-inline">\\varphi\:R\\rightarrow S</span> is a Ring Homomorphism, it follows that:
+
+Recall, <span class="math-inline">\\varphi\(x^\{n\}\)\=\\varphi\(0\)</span> Since <span class="math-inline">x^\{n\}\=0\.</span>
+Thus, <span class="math-inline">\\varphi\(0\)\=0\_\{s\}\.</span>
+
+<span class="math-inline">\\varphi\(x^\{n\}\)\=\\prod\_\{i\=1\}^\{n\}\\varphi\(x\)\=\(\\varphi\(x\)\)^\{n\}</span>
+
+<span class="math-inline">\\varphi\(x^\{n\}\)\=\(\\varphi\(x\)\)^\{n\}\=0\_\{s\}</span>
+
+<span class="math-inline">\\Rightarrow\\varphi\(x\)</span> is nilpotent in S, Since <span class="math-inline">\(\\varphi\(x\)\)^\{n\}\=0\_\{s\}</span>. [cite: 18]
+
+\section*{QUESTION 2.}
+
+Let R be a Commutative Ring and let
+
+<span class="math-inline">p\(x\)\=a\_\{n\}x^\{n\}\+a\_\{n\-1\}x^\{n\-1\}\+\\cdot\\cdot\\cdot\+a\_\{1\}x\+a\_\{0\}\=\\sum\_\{k\=0\}^\{n\}a\_\{k\}x^\{k\}</span>
+
+Be such that <span class="math-inline">p\(x\)\\in R\[x\]</span> (Polynomial ring). [cite: 20]
+
+Show that <span class="math-inline">p\(x\)</span> is a unit in <span class="math-inline">R\[x\]\\Leftrightarrow a\_\{0\}</span> is a unit and <span class="math-inline">a\_\{ij\}</span> <span class="math-inline">1\\le i\\le n</span> are nilpotent in R.
+Prove that <span class="math-inline">p\(x\)</span> is nilpotent in <span class="math-inline">R\[x\]\\Leftrightarrow a\_\{i\}</span> , <span class="math-inline">0\\le i\\le n</span> are nilpotent elements of R. [cite: 21]
+
+\section*{SOLUTION.}
+
+R is commutative Va, b  R, <span class="math-inline">ab\=ba\\in R</span> [cite: 22]
+
+x is nilpotent in <span class="math-inline">R\\Rightarrow x\\in R</span> and <span class="math-inline">x^\{n\}\=0\_\{R\},n\\in\\mathbb\{N\}</span> [cite: 22]
+
+x is a unit in <span class="math-inline">R\\Rightarrow x\\in R</span> and <span class="math-inline">xy\=1,y\\in R</span> [cite: 22]
+
+\begin{itemize}
+    \item Assume <span class="math-inline">p\(x\)</span> is a unit in <span class="math-inline">R\[x\]\\Rightarrow\\exists h\(x\)\\in R\[x\]\:p\(x\)h\(x\)\=1</span>
+\end{itemize}
+
+This implies:
+
+This implies:
+
+This implies:
+
+This implies:
+
+This implies:
+
+This implies:
+
+<span class="math-inline">\(a\_\{n\}x^\{n\}\+a\_\{n\-1\}x^\{n\-1\}\+\\cdot\\cdot\\cdot\+a\_\{1\}x\+a\_\{0\}\)\(b\_\{m\}x^\{m\}\+b\_\{m\-1\}x^\{m\-1\}\+\\cdot\\cdot\\cdot\+b\_\{1\}x\+b\_\{0\}\)\=1</span>
+
+<span class="math-inline">\(\\sum\_\{k\=0\}^\{n\}a\_\{k\}x^\{k\}\)\(\\sum\_\{k\=0\}^\{m\}b\_\{k\}x^\{k\}\)\=1</span>
+<span class="math-inline">\(\\sum\_\{k\=0\}^\{mn\}d\_\{k\}\\chi^\{k\}\)\=1,</span> where <span class="math-inline">d\_\{k\}\=\\sum\_\{j\=0\}^\{k\}a\_\{j\}b\_\{k\-j\}</span>
+<span class="math-inline">d\_\{0\}\+d\_\{1\}x\+d\_\{2\}x^\{2\}\+\\cdot\\cdot\\cdot\+d\_\{mn\}x^\{mn\}\=1</span>
+
+<span class="math-inline">d\_\{0\}\=1</span> (coefficient comparism) and <span class="math-inline">d\_\{k\}\=0</span> 0,1 <span class="math-inline">1\\le k\\le mn</span>
+
+This implies <span class="math-inline">a\_\{0\}</span> is a unit in R.
+To show
+
+<span class="math-inline">d\_\{0\}\=\\sum\_\{j\=0\}^\{0\}a\_\{j\}b\_\{0\-j\}\=a\_\{0\}b\_\{0\}\=1</span>
+<span class="math-inline">d\_\{k\}\=\\sum\_\{j\=0\}^\{k\}a\_\{j\}b\_\{k\-j\}\=0,1\\le k\\le mn</span>
+
+Consider each prime ideal <span class="math-inline">P\\subset R</span> and reduce R mod P.
+This implies:
+
+<span class="math-inline">p\(x\)\\in\(R/p\)\[x\]</span>
+
+And <span class="math-inline">p\(x\)</span> must be a unit. [cite: 22]
+
+Since <span class="math-inline">R/\_\{P\}</span> is a domain, units in <span class="math-inline">\(R/\_\{p\}\)\[x\]</span> are constant terms (units in <span class="math-inline">R/p\)</span>. [cite: 23, 24]
+Thus, <span class="math-inline">a\_\{k\}\\equiv0</span> mod p, <span class="math-inline">i\\ge1\\Rightarrow a\_\{i\}\\in P\\forall</span> primes P. Also, the intersection of all prime ideals is the
+niladical, so <span class="math-inline">a\_\{i\}</span> is nilpotent. [cite: 24, 25]
+
+\begin{itemize}
+    \item Conversely;
+\end{itemize}
+
+Assume <span class="math-inline">a\_\{0\}</span> is a unit and <span class="math-inline">a\_\{i\}</span> is nilpotent for <span class="math-inline">i\\ge1</span>
+
+Let
+
+<span class="math-inline">g\(x\)\=a\_\{n\}x^\{n\}\+a\_\{n\-1\}x^\{n\-1\}\+\\cdot\\cdot\\cdot\+a\_\{1\}x\.</span> Since each <span class="math-inline">a\_\{i\}</span> is nilpotent, <span class="math-inline">g\(x\)</span> is nilpotent in <span class="math-inline">R\[x\]</span>. [cite: 25, 26, 27]
+Recall, a unit plus a nilpotent element is invertible (See Proof at Page 6 Question 5iii). [cite: 26, 27]
+Thus,
+
+<span class="math-inline">f\(x\)\=a\_\{0\}\+g\(x\)</span>
+
+The inverse, <span class="math-inline">\(f\(x\)\)^\{\-1\}\=h\(x\)\=\{a\_\{0\}\}^\{\-1\}\(1\-\{a\_\{0\}\}^\{\-1\}g\(x\)\+\(\{a\_\{0\}\}^\{\-1\}g\(x\)\)^\{2\}\-\(\{a\_\{0\}\}^\{\-1\}g\(x\)\)^\{3\}\+\\cdot\\cdot\\cdot\)</span>
+
+Will terminate due to nilpotency.
+
+\begin{itemize}
+    \item Assume <span class="math-inline">p\(x\)</span> is nilpotent in <span class="math-inline">R\[x\]</span>.
+\end{itemize}
+This implies <span class="math-inline">\(p\(x\)\)^\{k\}\=0</span> <span class="math-inline">k\\in\\mathbb\{N\}\.</span>
+Recall,
+
+Thus,
+
+<span class="math-inline">p\(x\)\=a\_\{n\}x^\{n\}\+a\_\{n\-1\}x^\{n\-1\}\+\\cdot\\cdot\\cdot\+a\_\{1\}x\+a\_\{0\}\=\\sum\_\{j\=0\}^\{n\}a\_\{j\}x^\{j\}</span>
+<span class="math-inline">\(p\(x\)\)^\{k\}\=\(a\_\{n\}x^\{n\}\+a\_\{n\-1\}x^\{n\-1\}\+\\cdot\\cdot\\cdot\+a\_\{1\}x\+a\_\{0\}\)^\{k\}\=\(\\sum\_\{j\=0\}^\{n\}a\_\{j\}x^\{j\}\)^\{k\}</span>
+<span class="math-inline">\(p\(x\)\)^\{k\}\=\(a\_\{0\}\)^\{k\}\+\\cdot\\cdot\\cdot\(terms\~in\~variable\~x\)</span>
+
+Since <span class="math-inline">\(p\(x\)\)^\{k\}\=0,\\Rightarrow\(a\_\{0\}\)^\{k\}\=0</span>
+This implies <span class="math-inline">a\_\{0\}</span> nilpotent. [cite: 28, 29, 30]
+For other terms, consider the Quotient Ring <span class="math-inline">R/\_\{N\}</span>, where N is the nilradical of R.
+<span class="math-inline">In\(\\frac\{R\}\{N\}\)\[x\]</span> the image of <span class="math-inline">p\(x\)</span> is <span class="math-inline">p\(x\)</span>. [cite: 29, 30]
+<span class="math-inline">\\overline\{p\(x\)\}\=\\overline\{a\_\{0\}\}\+\\overline\{a\_\{1\}\}x\+\\overline\{a\_\{2\}\}x^\{2\}\+\\cdot\\cdot\\cdot\+\\overline\{a\_\{n\}\}x^\{n\}\=\\sum\_\{j\=0\}^\{n\}\\overline\{a\_\{j\}\}x^\{j\}</span>
+
+Since <span class="math-inline">\(p\(x\)\)^\{k\}\=0</span>, <span class="math-inline">\(\\overline\{p\(x\)\}\)^\{k\}\=0\.</span> But <span class="math-inline">R/\_\{N\}</span> has no nilpotent element except 0.
+
+So $\overline{a}_{i}=0$0iwhere <span class="math-inline">a\_\{i\}\\in N</span>
+
+This implies all coefficients are nilpotent.
+
+\begin{itemize}
+    \item Conversely;
+\end{itemize}
+
+Suppose <span class="math-inline">a\_\{i\}</span> is nilpotent Vi.
+
+<span class="math-inline">\\Rightarrow\(a\_\{i\}\)^\{k\_\{l\}\}\=0</span> <span class="math-inline">i\\in I\.</span>
+
+Let <span class="math-inline">m\=k\_\{0\}\+k\_\{1\}\+k\_\{2\}\+\\cdot\\cdot\\cdot\+k\_\{n\}\.</span>
+
+<span class="math-inline">\(p\(x\)\)^\{m\}</span> expanded results in terms containing at least one coefficient <span class="math-inline">a\_\{i\}</span> raised to a power <span class="math-inline">c\\ge k\_\{i\}</span> making
+the term <span class="math-inline">zero\(0\)</span> This is by the "Pigeonhole Principle". [cite: 31, 32]
+Hence <span class="math-inline">\(p\(x\)\)^\{m\}\=0</span>.
+<span class="math-inline">\\Rightarrow p\(x\)</span> is nilpotent in <span class="math-inline">R\[x\]\.</span>
+
+\section*{QUESTION 3.}
+
+Let R be a Ring with identity and let S be a Subring of R containing the identity. [cite: 33, 34]
+Prove that if u is a unit
+in S, then u is a unit in R. Show by counter example that the converse is not always true. [cite: 34, 35]
+u is a unit in <span class="math-inline">R\\Rightarrow u\\in R</span> and <span class="math-inline">uv\=1</span> <span class="math-inline">v\\in R\.</span> [cite: 35, 36]
+
+\section*{SOLUTION.}
+
+Since R is a Ring with identity, and S is a Subring of R containing the identity,
+
+<span class="math-inline">\\Rightarrow1\\in S\\subseteq R\.</span>
+
+Let u be a unit in S.
+
+<span class="math-inline">\\Rightarrow u\\in S</span> and <span class="math-inline">uv\=1,</span> <span class="math-inline">v\\in S\.</span>
+
+Since <span class="math-inline">S\\subseteq R</span> and u, <span class="math-inline">v\\in S</span>
+
+<span class="math-inline">\\Rightarrow u</span> <span class="math-inline">v\\in R</span>
+
+<span class="math-inline">\\Rightarrow u</span> is a unit in R.
+
+Conversely;
+Consider the Subring Z of the Ring Q. Notice that <span class="math-inline">1\\in\\mathbb\{Q\}</span> and <span class="math-inline">1\\in\\mathbb\{Z\}</span> [cite: 36, 37, 38, 39]
+
+Consider the element <span class="math-inline">2\\in\\mathbb\{Q\}</span> Notice that <span class="math-inline">2\\in\\mathbb\{Z\}as</span> well. [cite: 37, 38, 39]
+Since Q is a ring with identity,
+
+<span class="math-inline">\\Rightarrow\\exists v\\in\\mathbb\{Q\}\:2v\=1</span>.
+
+<span class="math-inline">\\Rightarrow\(2^\{\-1\}\)2v\=\(2^\{\-1\}\)1</span>.
+
+<span class="math-inline">\\Rightarrow\(2^\{\-1\}2\)v\=\(2^\{\-1\}\)1</span> (Associative Property Of Rings).
+
+<span class="math-inline">\\Rightarrow\(1\)v\=\(2^\{\-1\}\)</span>.
+<span class="math-inline">\\Rightarrow v\=2^\{\-1\}\=\\frac\{1\}\{2\}</span>
+
+Notice that <span class="math-inline">v\=2^\{\-1\}\=\\frac\{1\}\{2\}\\in\\mathbb\{Q\}</span> but <span class="math-inline">v\=2^\{\-1\}\=\\frac\{1\}\{2\}\\notin\\mathbb\{Z\}\.</span>
+
+This implies 2 is a unit in the Ring without being a unit in the Subring Z of Q.
+
+\section*{QUESTION 4.}
+
+An element x is nilpotent in <span class="math-inline">R\\Rightarrow x\\in R</span> and <span class="math-inline">x^\{m\}\=0\_\{R\}</span>, <span class="math-inline">m\\in\\mathbb\{N\}</span> Show that if <span class="math-inline">n\=a^\{k\}b</span> where a, <span class="math-inline">b\\in\\mathbb\{Z\}\.</span>
+then <span class="math-inline">\\overline\{ab\}</span> is nilpotent in <span class="math-inline">\\mathbb\{Z\}/n\\mathbb\{Z\}\}\.</span>
+
+ is nilpotent in <span class="math-inline">\\mathbb\{Z\}/n\\mathbb\{Z\}</span> if <span class="math-inline">\(\\overline\{x\}\)^\{m\}\=0</span>
+
+<span class="math-inline">\\Rightarrow x^\{m\}\\equiv0</span> mod n. [cite: 40, 41, 42, 43]
+
+<span class="math-inline">\\Rightarrow n\|x^\{m\}\-0</span>.
+
+<span class="math-inline">\\Rightarrow n\|x^\{m\}\.</span>
+
+Consider <span class="math-inline">\\overline\{ab\}</span> in <span class="math-inline">\\mathbb\{Z\}/n\\mathbb\{Z\}\}\.</span>
+
+<span class="math-inline">\(ab\)^\{k\}\=a^\{k\}b^\{k\}</span>.
+
+\section*{SOLUTION.}
+
+Since <span class="math-inline">n\=a^\{k\}b</span> check if <span class="math-inline">\(ab\)^\{k\}\=a^\{k\}b^\{k\}\\equiv0</span> mod n.
+
+<span class="math-inline">a^\{k\}b^\{k\}\\equiv0</span> mod <span class="math-inline">\(a^\{k\}b\)</span>.
+Notice that <span class="math-inline">a^\{k\}b^\{k\}\=\(a^\{k\}b\)b^\{k\-1\}</span>
+
+<span class="math-inline">\\Rightarrow a^\{k\}b\|a^\{k\}b^\{k\}\|</span>.
+
+<span class="math-inline">\\Rightarrow a^\{k\}b\|a^\{k\}b^\{k\}\-0</span> .
+
+<span class="math-inline">\\Rightarrow a^\{k\}b^\{k\}\\equiv0\~mod\(a^\{k\}b\)</span>.
+
+<span class="math-inline">\\Rightarrow a^\{k\}b^\{k\}\\equiv0</span> mod n.
+Thus <span class="math-inline">\\overline\{ab\}</span> is nilpotent in <span class="math-inline">\\mathbb\{Z\}/n\\mathbb\{Z\}\\cdot</span>
+
+\section*{QUESTION 5.}
+
+Let x be a nilpotent element in a Commutative Ring R. [cite: 44, 45, 46, 47]
+
+Prove that x is either zero (0) or a zero divisor. [cite: 44, 45, 46, 47]
+
+Prove that <span class="math-inline">rx</span> is nilpotent <span class="math-inline">\\forall r\\in R\.</span> [cite: 45, 46, 47]
+
+Prove that <span class="math-inline">1\+x</span> is a unit in R. [cite: 45, 46, 47]
+
+Deduce that the sum of a nilpotent element and a unit is a unit. [cite: 45, 46, 47]
+
+R is commutative <span class="math-inline">\\Rightarrow\\forall a,</span> <span class="math-inline">b\\in R</span> <span class="math-inline">ab\=ba\\in R\.</span> [cite: 46, 47]
+
+\section*{SOLUTION.}
+
+x is nilpotent in <span class="math-inline">R\\Rightarrow x\\in R</span> and $x^{n}=0_{R
